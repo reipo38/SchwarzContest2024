@@ -34,7 +34,6 @@ public class Main {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         String input = reader.readLine();
         int originalNumber = Integer.parseInt(input);
-        //int[] number = Arrays.stream(input.split("")).mapToInt(Integer::parseInt).toArray();
         String[] number = input.split("");
         boolean isDragon = false;
         boolean isPseudoDragon = false;
